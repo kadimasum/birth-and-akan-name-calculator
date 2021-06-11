@@ -1,0 +1,5 @@
+form div input::-webkit-inner-spin-button, 
+form div input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0px;
+}
