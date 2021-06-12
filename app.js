@@ -28,17 +28,30 @@ function akanNameCalculator() {
     
     if (document.getElementById("genderMale").checked) {
 
-            document.getElementById("results").innerHTML = maleAkan[birthDate];
+        document.getElementById("results").innerHTML = maleAkan[birthDate];
+
         }
-        
+
         
     // Find male Akan from birthDate
 
 
-    if (document.getElementById("genderFemale").checked) {
+    else if(document.getElementById("genderFemale").checked) {
 
-            document.getElementById("results").innerHTML = femaleAkan[birthDate];
+        document.getElementById("results").innerHTML = femaleAkan[birthDate];
+
         }
+
+
+    // Warning
+
+
+    else {
+
+        document.getElementById("warning").innerHTML = 
+        "*Enter your birth date and select one option from the gender field";
+        
+    }
   
 
 
