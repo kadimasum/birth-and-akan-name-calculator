@@ -17,6 +17,7 @@ body {
 
 h2 {
     margin-bottom: 20px;
+    font-size: 25px;
 }
 
 h3 {
@@ -45,4 +46,23 @@ form div input::-webkit-inner-spin-button,
 form div input::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0px;
+}
+
+#radioInput {
+    display: flex;
+}
+
+#radioInput label {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 30%;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 4px;
 }
