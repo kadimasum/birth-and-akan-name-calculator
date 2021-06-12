@@ -8,6 +8,7 @@ body {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .birthdayGenderCollector {
@@ -16,7 +17,19 @@ body {
 
 form {
     width: 100%;
-    background-color: aqua;
+}
+
+form :first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+form :first-child input {
+    padding: 5px;
+}
+
+form :first-child label {
+    margin-bottom: 10px;
 }
 
 form div input::-webkit-inner-spin-button, 
