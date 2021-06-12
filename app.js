@@ -18,7 +18,18 @@ function akanNameCalculator() {
     let maleAkan = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     let femaleAkan = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-   document.getElementById("results").innerHTML = birthDate;
+    // Find male Akan from birthDate
+
+    for (let i = 0; i = maleAkan.length; i++) {
+        if (male = true) {
+            let result = maleAkan[birthDate];
+            return result;
+        }
+
+        document.getElementById("results").innerHTML = result;
+    }
+
+  
 
 
 }
