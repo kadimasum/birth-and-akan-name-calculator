@@ -16,12 +16,13 @@
         <div class="birthdayGenderCollector">
 
             <h2>Match the day of the week you were born with its respective Akan name</h2>
+            <p id="warning"></p>
             <form action="">
 
                 <!-- Input birth -->
 
                 <div>
-                    <label for="date">Enter your Birthdate</label>
+                    <label for="date">Enter your Date of Birth</label>
                     <input id="birthDate" type="date" placeholder="">
                 </div>
 
@@ -42,8 +43,12 @@
                 <button type="submit" onclick="akanNameCalculator();">Submit</button>
 
             </form>
+            
+           
+        </div>
+        <div class="myResults">
+            <h4>Results:</h4>
             <p id="results"></p>
-            <p id="warning"></p>
         </div>
 
 

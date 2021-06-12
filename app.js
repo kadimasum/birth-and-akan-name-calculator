@@ -49,7 +49,7 @@ function akanNameCalculator() {
     else {
 
         document.getElementById("warning").innerHTML = 
-        "*Enter your birth date and select one option from the gender field";
+        "*Enter your date of birth and select one option from the gender field";
         
     }
   
