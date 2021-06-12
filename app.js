@@ -1,0 +1,6 @@
+function akanNameCalculator() {
+
+    event.preventDefault();
+
+    
+}
