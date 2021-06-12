@@ -28,7 +28,9 @@ function akanNameCalculator() {
     
     if (document.getElementById("genderMale").checked) {
 
-        document.getElementById("results").innerHTML = maleAkan[birthDate];
+        document.getElementById("results").innerHTML =
+         "According to your gender, your Akan name is: " + "<strong>" +
+         maleAkan[birthDate] + "</strong>";
 
         }
 
@@ -38,7 +40,9 @@ function akanNameCalculator() {
 
     else if(document.getElementById("genderFemale").checked) {
 
-        document.getElementById("results").innerHTML = femaleAkan[birthDate];
+        document.getElementById("results").innerHTML = 
+        "According to your gender, your Akan name is: " + "<strong>" +
+         femaleAkan[birthDate] + "</strong>";
 
         }
 
