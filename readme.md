@@ -5,7 +5,7 @@
 Akan names are ghananian names that are given to new born boys and girls based on their gender. All names are gender specific and they span through the entire week. This means that a boy and a girl and a boy born on the same day will not have the same name. They will automaticaly get a name that represents their gender on that specific day.
 ## Setup/Installation Requirements
 * Open your browser and navigate to the search field
-* Enter the following adress into the the search field and press the enter key on your keybord or search button on your browser
+* Enter the following adress into the the search field and press the enter key on your keybord or search button on your browser https://augustinekadima.github.io/birth-and-akan-name-calculator/
 * On the website, start by typing in your date of birth
 * Select your gender
 * Submit
