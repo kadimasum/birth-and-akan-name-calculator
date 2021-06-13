@@ -7,6 +7,15 @@ function akanNameCalculator() {
 
     let inputDate = document.getElementById("birthDate").value;
     let gender = document.getElementsByName("gender");
+
+    try {
+
+        if (inputDate == "") throw "Empty"
+    }
+
+    catch {
+        document.getElementById("emptyDate").innerHTML = "*Date field required"
+    }
    
         
     // Get day
@@ -50,12 +59,12 @@ function akanNameCalculator() {
     // Warning
 
 
-    else {
+    // else {
 
-        document.getElementById("warning").innerHTML = 
-        "*Enter your date of birth and select one option from the gender field";
+    //     document.getElementById("warning").innerHTML = 
+    //     "*Enter your date of birth and select one option from the gender field";
         
-    }
+    // }
   
 
 
