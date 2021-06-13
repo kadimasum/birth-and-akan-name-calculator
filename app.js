@@ -57,14 +57,14 @@ function akanNameCalculator() {
 
 
     // Warning
-
-
-    // else {
-
-    //     document.getElementById("warning").innerHTML = 
-    //     "*Enter your date of birth and select one option from the gender field";
         
-    // }
+
+     if(!document.getElementById("genderFemale").checked && !document.getElementById("genderMale").checked) {
+
+        document.getElementById("warning").innerHTML = 
+        "*Select your gender";
+        
+    }
   
 
 
