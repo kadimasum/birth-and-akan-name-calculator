@@ -67,10 +67,5 @@ function akanNameCalculator() {
         
     }
 
-    else {
-        document.getElementById("results").innerHTML = "";
-    }
-  
-
 
 }
