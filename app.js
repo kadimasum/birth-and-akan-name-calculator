@@ -15,6 +15,7 @@ function akanNameCalculator() {
 
     catch {
         document.getElementById("emptyDate").innerHTML = "*Date field required"
+        
     }
    
         
@@ -35,7 +36,7 @@ function akanNameCalculator() {
     // Find male Akan from birthDate
 
     
-    if (document.getElementById("genderMale").checked) {
+    if (document.getElementById("genderMale").checked && (inputDate != "")) {
 
         document.getElementById("results").innerHTML =
          "According to your gender, your Akan name is: " + "<strong>" +
@@ -47,7 +48,7 @@ function akanNameCalculator() {
     // Find male Akan from birthDate
 
 
-    else if(document.getElementById("genderFemale").checked) {
+    else if(document.getElementById("genderFemale").checked && (inputDate != "")) {
 
         document.getElementById("results").innerHTML = 
         "According to your gender, your Akan name is: " + "<strong>" +
@@ -59,11 +60,15 @@ function akanNameCalculator() {
     // Warning
         
 
-     if(!document.getElementById("genderFemale").checked && !document.getElementById("genderMale").checked) {
+    else if(!document.getElementById("genderFemale").checked && !document.getElementById("genderMale").checked) {
 
         document.getElementById("warning").innerHTML = 
         "*Select your gender";
         
+    }
+
+    else {
+        document.getElementById("results").innerHTML = "";
     }
   
 
