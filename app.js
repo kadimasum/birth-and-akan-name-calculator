@@ -66,6 +66,5 @@ function akanNameCalculator() {
         "*Select your gender";
         
     }
-
-
 }
+
