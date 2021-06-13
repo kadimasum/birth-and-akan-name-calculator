@@ -10,6 +10,8 @@ Akan names are ghananian names that are given to new born boys and girls based o
 * Select your gender
 * Submit
 * Read the results from the display at the bottom
+
+
 The good thing about this website is that you do not need to install any third party plugin or server. You get full access as long as you can access a browser
 ## Known Bugs
 There are no known bugs. If you encounter any, kindly reach out through the contacts provided in the contacts section
